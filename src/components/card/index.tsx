@@ -1,9 +1,9 @@
-import React from 'react'
-import { ClassInfo } from '../../store/dashboard/types';
+import React from "react";
+import { ClassInfo } from "../../store/dashboard/types";
 
 export type Props = {
-  data: ClassInfo
-}
+  data: ClassInfo;
+};
 
 const Card: React.FC<Props> = ({ data }) => {
   return (
@@ -13,7 +13,7 @@ const Card: React.FC<Props> = ({ data }) => {
       <span className="font-bold w-full">Students</span>
       <span className="font-semibold w-full">{data.students}</span>
     </div>
-  )
+  );
 };
 
 export default Card;

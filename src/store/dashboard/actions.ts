@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import Airtable from "airtable";
 import { Student, ClassInfo } from "./types";
 
-const base = new Airtable({apiKey: process.env.REACT_APP_API_KEY}).base('app8ZbcPx7dkpOnP0');
+const base = new Airtable({apiKey: process.env.REACT_APP_API_KEY}).base('keyosVRjLzer7U7yS');
 
 const getData = createAsyncThunk(
   "getData",
